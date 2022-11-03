@@ -4,8 +4,8 @@
 %define snapshot 20220115
 
 Name: uavs3e
-Version: 1.0.1
-Release: %{?snapshot:0.%{snapshot}.}1
+Version: 1.3
+Release: %{?snapshot:1.%{snapshot}.}1
 Source0: https://github.com/uavs3/uavs3e/archive/%{?snapshot:refs/heads/master}%{!?snapshot:%{version}/%{name}-%{version}}.tar.gz
 Patch0: uavs3e-buildsystem.patch
 Summary: Library for encoding AVS3-P2 format videos
